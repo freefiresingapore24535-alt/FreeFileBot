@@ -10,32 +10,32 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7542241757:")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8566739975:AAHYPFx_w8NMtaIlTK_QYDwjPABLkQFBsgo")
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "24955235"))
+APP_ID = int(os.environ.get("APP_ID", "22128383"))
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "f317b3f7bbe390346d8b46868cff0de8")
+API_HASH = os.environ.get("API_HASH", "7992b5c5c9c6d34276c3dce9e46ba879")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002004278204"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003494765620"))
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "neonghost")
+OWNER = os.environ.get("OWNER", "Minato_Sencie")
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5706788169"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5960133511"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kojar29650:h8jvNvpyteVB8AzM@cluster0.uywzxza.mongodb.net/?retryWrites=true&w=majority&appName=Cluster")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster00")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sktech07:sktech07@cluster0.0mmptus.mongodb.net/?appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "SkTech")
 
 #Time in seconds for message delete, put 0 to never delete
 TIME = int(os.environ.get("TIME", "10"))
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001980994910"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "0"))
 #put 0 to disable
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002412821383"))#put 0 to disable
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1003391421319"))#put 0 to disable
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))#put 0 to disable
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))#put 0 to disable
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to disable
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -109,7 +109,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5706788169)
+ADMINS.append(5960133511)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
